@@ -10,6 +10,6 @@ void main()
     }
     catch (SQLException sqle)
     {
-        println("Errore");
+        println("Errore " + sqle.getMessage());
     }
 }
